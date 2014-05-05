@@ -1,0 +1,12 @@
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\Bin\Debug\ApplicationIcon.png
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\Bin\Debug\Background.png
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\Bin\Debug\Assignment1.dll
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\Bin\Debug\Assignment1.pdb
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\Bin\Debug\AppManifest.xaml
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\Bin\Debug\Assignment1.xap
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\obj\Debug\App.g.i.cs
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\obj\Debug\MainPage.g.i.cs
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.g.resources
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.dll
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+c:\users\bing\documents\visual studio 2010\Projects\Assignment1\Assignment1\obj\Debug\XapCacheFile.xml
