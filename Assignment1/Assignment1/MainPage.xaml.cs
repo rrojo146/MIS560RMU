@@ -20,26 +20,27 @@ namespace Assignment1
         public MainPage()
         {
             InitializeComponent();
-            txtBlk01.MouseLeftButtonUp += new MouseButtonEventHandler(txtBlk01_MouseLeftButtonUp);
-            txtBlk02.MouseLeftButtonUp += new MouseButtonEventHandler(txtBlk02_MouseLeftButtonUp);
-            txtBlk03.MouseLeftButtonUp += new MouseButtonEventHandler(txtBlk03_MouseLeftButtonUp);
-            bicyclepic01.MouseLeftButtonUp += new MouseButtonEventHandler(bicyclepic01_MouseLeftButtonUp);
+            
 
         }
-        void txtBlk01_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+     
+
+        private void txtBlk01_Tap(object sender, GestureEventArgs e)
         {
             msgBlock.Text = "You Have clicked TextBlock1";
-
         }
-        void txtBlk02_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+
+        private void txtBlk02_Tap(object sender, GestureEventArgs e)
         {
             msgBlock.Text = "You Have clicked TextBlock2";
         }
-        void txtBlk03_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+
+        private void txtBlk03_Tap(object sender, GestureEventArgs e)
         {
             msgBlock.Text = "You Have clicked TextBlock3";
         }
-        void bicyclepic01_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+
+        private void bicyclepic01_Tap(object sender, GestureEventArgs e)
         {
             WebBrowserTask webBrowserTask = new WebBrowserTask();
             webBrowserTask.Uri = new Uri("http://www.robertmorris.edu");

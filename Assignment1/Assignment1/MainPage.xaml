@@ -30,12 +30,12 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" ShowGridLines="False">
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="12,6,0,0" Name="txtBlk01" Text="TextBlock 1" VerticalAlignment="Top" />
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="151,106,0,0" Name="txtBlk02" Text="TextBlock 2" VerticalAlignment="Top" />
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="322,202,0,0" Name="txtBlk03" Text="TextBlock 3" VerticalAlignment="Top"  />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="12,6,0,0" Name="txtBlk01" Text="TextBlock 1" VerticalAlignment="Top" Tap="txtBlk01_Tap" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="151,106,0,0" Name="txtBlk02" Text="TextBlock 2" VerticalAlignment="Top" Tap="txtBlk02_Tap" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="322,202,0,0" Name="txtBlk03" Text="TextBlock 3" VerticalAlignment="Top" Tap="txtBlk03_Tap" />
         </Grid>
         <TextBlock Grid.Row="2"  HorizontalAlignment="Center"  Name="msgBlock" Text="Message" VerticalAlignment="Top" FontSize="28" Foreground="Red" />
-        <Image Grid.Row="3"  HorizontalAlignment="Center"  Name="bicyclepic01" Stretch="Fill" VerticalAlignment="Top" Width="468" Source="/Assignment1;component/Images/clipart-bicycle.png" />
+        <Image Grid.Row="3"  HorizontalAlignment="Center"  Name="bicyclepic01" Stretch="Fill" VerticalAlignment="Top" Width="468" Source="/Assignment1;component/Images/clipart-bicycle.png" Tap="bicyclepic01_Tap" />
         
     </Grid>
  
