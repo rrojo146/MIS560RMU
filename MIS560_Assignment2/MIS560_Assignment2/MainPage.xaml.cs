@@ -20,6 +20,7 @@ namespace MIS560_Assignment2
         public MainPage()
         {
             InitializeComponent();
+            this.DataContext = new ViewModel();
 
         }
 

@@ -30,9 +30,11 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Name="txtNoteTitle" Text="Note Test" FontSize="32" />
-            <TextBox Grid.Row="1" FontFamily="Times New Roman" FontSize="24" Name="txbNoteEntry" TextChanged="txbNoteEntry_TextChanged" TextWrapping="Wrap" />
+            <TextBox Grid.Row="1" FontFamily="Times New Roman" FontSize="24" Name="txbNoteEntry" Text="{Binding SelectedItem, Mode=TwoWay}" TextChanged="txbNoteEntry_TextChanged" TextWrapping="Wrap" />
+            <Button x:Name="saveNoteBtn" Grid.Row="2" Content="Save Note" Command="{Binding ButtonCommand}"  />
         </Grid>
     </Grid>
  
