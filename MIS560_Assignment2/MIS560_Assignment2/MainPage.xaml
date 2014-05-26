@@ -36,11 +36,7 @@
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Text="Note List" TextAlignment="Center" FontSize="28" Height="40" />
             <ListBox Grid.Row="1" x:Name="MainNoteList" ItemsSource="{Binding NoteList}">
-                <ListBoxItem>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding NoteList}" />
-                    </DataTemplate>
-                </ListBoxItem>
+                <ListBoxItem></ListBoxItem>
             </ListBox>
             <Button x:Name="newNoteBtn" Grid.Row="2" Content="New Note" Click="newNoteBtn_Click"  />
         </Grid>
