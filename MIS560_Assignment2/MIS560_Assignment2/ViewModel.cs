@@ -54,20 +54,6 @@ namespace MIS560_Assignment2
             }
         }
        
-        //TODO add a property for when we select an item from my list to update the textbox
-
-        //private string _TextboxString;
-
-        //public string TextboxString
-        //{
-        //    get { return _TextboxString; }
-        //    set
-        //    {
-        //        _TextboxString = value;
-        //        NotifyPropertyChanged("TexboxString");
-        //    }
-        //}
-
         #region Command logic
         public ICommand ButtonCommand
         {
