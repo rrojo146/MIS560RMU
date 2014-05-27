@@ -25,7 +25,7 @@ namespace MIS560_Assignment2
         {
             if (this.txbNoteEntry.Text != "")
             {
-                IsolatedStorageSettings.ApplicationSettings["lstNoteList"] = (this.txbNoteEntry.Text);
+                IsolatedStorageSettings.ApplicationSettings["NoteList"] = (this.txbNoteEntry.Text);
             }
         }
 
