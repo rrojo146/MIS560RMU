@@ -22,21 +22,20 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="MIS560App2" FontSize="32" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Note List" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
         
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>                
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Text="Note List" TextAlignment="Center" FontSize="28" Height="40" />
-            <ListBox Grid.Row="1" ItemsSource="{Binding NoteList}" SelectedValue="{Binding SelectectedItem, Mode=TwoWay}"/>
-            <Button x:Name="newNoteBtn" Grid.Row="2" Content="New Note" Click="newNoteBtn_Click"  />
+            
+            <ListBox Grid.Row="0" ItemsSource="{Binding NoteList}" SelectionChanged="ListBox_SelectionChanged" />
+            <Button x:Name="newNoteBtn" Grid.Row="1" Content="New Note" Click="newNoteBtn_Click"  />
         </Grid>
     </Grid>
 

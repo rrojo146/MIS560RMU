@@ -35,5 +35,10 @@ namespace MIS560_Assignment2
 
         }
 
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Page2.xaml", UriKind.Relative));
+        }
+
     }
 }
