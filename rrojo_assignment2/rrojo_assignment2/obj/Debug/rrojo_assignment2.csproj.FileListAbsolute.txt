@@ -1,0 +1,13 @@
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\Bin\Debug\ApplicationIcon.png
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\Bin\Debug\Background.png
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\Bin\Debug\rrojo_assignment2.dll
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\Bin\Debug\rrojo_assignment2.pdb
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\Bin\Debug\AppManifest.xaml
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\Bin\Debug\rrojo_assignment2.xap
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\App.g.i.cs
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\MainPage.g.i.cs
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\rrojo_assignment2.g.resources
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\rrojo_assignment2.dll
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\rrojo_assignment2.pdb
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\XapCacheFile.xml
+C:\Users\Bing\Documents\Visual Studio 2010\Projects\rrojo_assignment2\rrojo_assignment2\obj\Debug\EditPage.g.i.cs
