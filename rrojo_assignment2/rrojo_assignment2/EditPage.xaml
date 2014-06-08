@@ -31,7 +31,7 @@
                 <RowDefinition Height="45" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBox Grid.Row="0" Name="tbxNotename" Margin="-12" />
+            <TextBox Grid.Row="0" Name="tbxNotename" Text="Note Title Here" Margin="-12" />
             <TextBox Grid.Row="1" Name="tbxNote" Text="Write Note Here" Margin="-10,0,-10,0" AcceptsReturn="True" />
 
         </Grid>
