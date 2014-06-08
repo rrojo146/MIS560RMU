@@ -67,7 +67,13 @@ namespace rrojo_assignment2
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
+            using (var store = System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication())
+            {
+                store.DeleteFile(tbxNotename.Text);
+                NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+            }
 
+           
         }
     }
 }
