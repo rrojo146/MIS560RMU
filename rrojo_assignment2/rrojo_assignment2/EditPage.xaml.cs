@@ -72,7 +72,6 @@ namespace rrojo_assignment2
                 store.DeleteFile(tbxNotename.Text);
                 NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
             }
-
            
         }
     }
